@@ -1,0 +1,123 @@
+Git命令使用方法：
+注意：如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。 
+
+1、mkdir 目录名字（如Project）     ：创建本地仓库目录，可以手动建立，也可以使用Git命令
+2、git init                        ：初始化本地仓库 
+3、git add 文件名.后缀             ： 添加文件
+4、git add 文件夹名称+反斜线（"/"）：添加文件夹
+5、git commit -m "说明"            ：提交工作区内容到本地仓库
+6、pwd                             ：查看当前所在目录
+7、git status                      ：查看当前版本的状态，是否存在变更或新增或删除等的文件
+8、cd                              ：后面加路径，回车后悔进入该路径下方
+9、git log  --pretty=oneline       :可以查看提交历史，以便确定要回退到哪个版本。
+10、git diff                       ：可以查看修改过的内容
+11、git reset --hard 版本号        ：回退版本使用的命令
+12、git reset --hard^              ：回退到上一个版本，上上个版本用hard^^，再多的话可以使用（11）命令输入版本号，版本号查询可以用（8）命令进行查询
+13、git reflog                     ：要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+14、git checkout -- file           ：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时
+15、①git reset HEAD <file>  ②git checkout -- file       ： 当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步
+注意:git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令
+16、rm test.txt                    ：删除工作区文件
+17、git rm test.txt                :删除暂存区文件，使用命令（5）进行提交至本地仓库
+
+18、git remote add origin git@github.com(server-name):zhang305889923/Project.git： 关联远程库
+举例：关联他人远程库时，需现在本地建立本地仓库，然后关联远程仓库，最后使用（21）命令进行代码或文件的拉取。
+      git pull git@github.com:MVCAppDesignAndDevelop/MVC5Book.git master
+
+19、git push -u origin master      ：推送master仓库的所有内容到远程库
+20、git push origin master         ：本地文件修改后提交到本地仓库后即可使用该命令推送最新修改
+21、git pull                       :将远程仓库文件更新到本地
+注意：更新文件到本地后会出现(master|MERGING)，这种情况需要
+22、git checkout -b 分支名字       ：创建并切换分支，git checkout命令加上-b参数表示创建并切换；将相当于$git branch dev  $ git checkout dev 两句命令
+注意：最新版本的Git,使用命令git switch -c dev 来创建并切换分支，切换到已有的分支使用命令：git switch master
+23、git branch命令                 ：查看当前分支，命令会列出所有分支，当前分支前面会标一个*号
+24、git checkout master            ：切换分支到master
+注意：切换回master分支后，再查看一个readme.txt文件，刚才添加的内容不见了！因为那个提交是在dev分支上，而master分支此刻的提交点并没有变
+25、git merge dev                  ：合并，将dev分支内容合并到master上。git merge命令用于合并指定分支到当前分支
+26、git branch -d dev              ：删除分支
+
+
+Git使用命令及步骤
+打开GitBash之后
+	1、使用cd命令：cd 版本库的路径
+	2、若要进行添加文件则使用命令git add 文件名.后缀
+	3、添加成功后使用git status可以查看当前文件的状态，提示一个或多个文件已经修改但未提交
+	4、使用命令git commit -m "提交文件说明" ，进行文件的提交
+	5、使用git diff 文件名，可以查看文件修改内容
+	6、提交修改，和添加新文件使用的命令是一样的git add 文件名称.后缀
+	7、添加成功后使用git commit -m "提交文件说明"。
+	8、提交成功后，使用git status 查看版本库状态
+		On branch master
+		nothing to commit, working tree clean
+		Git告诉我们当前没有需要提交的修改，而且，工作目录是干净（working tree clean）的。
+	9、查看日志使用命令git log --pretty=oneline  //--后面的命令是将日志整合成单行，更方便查看
+
+小结：
+	要随时掌握工作区的状态，使用git status命令。
+	如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+
+
+回退版本使用的命令
+	git reset --hard 版本号（不用输全号码，只需输入前几位就可以）
+	回退到上一个版本用git reset --hard^,回退到上上个版本用 git reset --hard^^ ，若回退的版本较早可以使用git reset --hard 版本号
+	若要回滚历史版本，且从git log 中获取不到之前版本的版本号了，可以使用如下命令：git reflog 查看历史提交记录其中包含版本号和提交时的备注
+
+小结：
+	用git log可以查看提交历史，以便确定要回退到哪个版本。
+	要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+	
+	
+工作区、暂存区	
+	工作区（Working Directory）：
+		就是你在电脑里能看到的目录，比如我的learngit文件夹就是一个工作区：
+		
+	版本库（Repository）：
+	工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+	Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+
+小结
+	暂存区是Git非常重要的概念，弄明白了暂存区，就弄明白了Git的很多操作到底干了什么。
+
+
+撤销修改
+
+	命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+	一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+	一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+	总之，就是让这个文件回到最近一次git commit或git add时的状态。
+
+
+	小结
+	又到了小结时间。
+	场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+	场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD <file>，就回到了场景1，第二步按场景1操作。
+	场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
+
+	git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
+	
+删除文件
+
+	一般情况下，你通常直接在文件管理器中把没用的文件删了，或者用rm命令删了：
+	$ rm test.txt
+	这个时候，Git知道你删除了文件，因此，工作区和版本库就不一致了，git status命令会立刻告诉你哪些文件被删除了：
+	现在你有两个选择，一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit：
+	
+	小提示：先手动删除文件，然后使用git rm <file>和git add<file>效果是一样的。
+文件被锁后可使用：rm -f ./msg/.git/index.lock 命令将锁删除
+	
+	
+	另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本：
+$ git checkout -- test.txt
+git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
+ 注意：从来没有被添加到版本库就被删除的文件，是无法恢复的！ 
+小结
+命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，
+你会丢失最近一次提交后你修改的内容。
+
+关联远程库
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！
+
+以上内容整理自：https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192
