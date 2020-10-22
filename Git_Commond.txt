@@ -37,6 +37,9 @@ Git命令使用方法：
 26、git branch -d dev              ：删除分支
 
 
+本地仓库建立完成，且远程仓库也建立完成
+可使用如下命令进行本地仓库和远程仓库进行关联：git remote add origin[固定写法，可以改成其他的，代表远程仓库] git@github.com:michaelliao[远程仓库的用户名]/learngit[远程仓库的名字].git
+使用git push -u origin master[本地仓库名称] 进行全推送
 Git使用命令及步骤
 打开GitBash之后
 	1、使用cd命令：cd 版本库的路径
