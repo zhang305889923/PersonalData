@@ -1,0 +1,7 @@
+D:\Private\SocketDemo\SocketClient\bin\Debug\ConsoleApp3.exe.config
+D:\Private\SocketDemo\SocketClient\bin\Debug\ConsoleApp3.exe
+D:\Private\SocketDemo\SocketClient\bin\Debug\ConsoleApp3.pdb
+D:\Private\SocketDemo\SocketClient\obj\Debug\SocketClientDemo.csprojAssemblyReference.cache
+D:\Private\SocketDemo\SocketClient\obj\Debug\SocketClientDemo.csproj.CoreCompileInputs.cache
+D:\Private\SocketDemo\SocketClient\obj\Debug\ConsoleApp3.exe
+D:\Private\SocketDemo\SocketClient\obj\Debug\ConsoleApp3.pdb

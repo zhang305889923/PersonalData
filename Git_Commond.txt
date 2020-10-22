@@ -1,6 +1,8 @@
 Git命令使用方法：
 注意：如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。 
 
+使用命令：ssh-keygen -t rsa -C "zxf_hb@163.com" 来生成sshKey，生成玩之后需要在github的Settings中进行添加认证。
+
 1、mkdir 目录名字（如Project）     ：创建本地仓库目录，可以手动建立，也可以使用Git命令
 2、git init                        ：初始化本地仓库 
 3、git add 文件名.后缀             ： 添加文件
