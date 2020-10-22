@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.Aop.Advice\bin\Debug\ExinScada.Aop.Advice.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.Aop.Advice\bin\Debug\ExinScada.Aop.Advice.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.Aop.Advice\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.Aop.Advice\obj\Debug\ExinScada.Aop.Advice.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.Aop.Advice\obj\Debug\ExinScada.Aop.Advice.pdb

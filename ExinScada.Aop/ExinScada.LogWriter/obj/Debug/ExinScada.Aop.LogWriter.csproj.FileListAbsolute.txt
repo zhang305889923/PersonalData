@@ -1,0 +1,7 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\bin\Debug\ExinScada.LogWriter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\bin\Debug\ExinScada.LogWriter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\obj\Debug\ExinScada.LogWriter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\obj\Debug\ExinScada.LogWriter.pdb

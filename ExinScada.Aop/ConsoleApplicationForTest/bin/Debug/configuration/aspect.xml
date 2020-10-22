@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<aop>
+  <aspect value ="ExceptionIntercepterAOP">
+    <advice type="Before" assembly="ExinScada.Aop.ExceptionIntercepter" class="ExinScada.Aop.ExceptionIntercepter.ExceptionIntercepterAdvice">
+      <pointcut>ADD</pointcut>
+      <pointcut>SUBSTRACT</pointcut>
+    </advice>
+    <advice type="After" assembly="ExinScada.Aop.ExceptionIntercepter" class="ExinScada.Aop.ExceptionIntercepter.ExceptionIntercepterAdvice">
+      <pointcut>ADD</pointcut>
+      <pointcut>SUBSTRACT</pointcut>
+    </advice>
+  </aspect>
+</aop>
+
+

@@ -1,0 +1,30 @@
+ERROR [10 thread] 2013-01-06 08:47:18,015   515ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) -    在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 08:53:37,531 27093ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常!  错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 08:54:37,796   609ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常! 
+ 错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 08:56:33,390   625ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常!
+错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 08:57:39,656   609ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常!
+错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 08:59:44,062   609ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常!
+错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 09:01:03,890   609ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:加法异常!
+错误的代码位置:   在 ConsoleApplicationForTest.Class1.Add() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 15
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+INFO  [9 thread] 2013-01-06 09:01:05,296  2015ms onIntercepterLogWriter LogFormat           ExinScada.Aop.LogWriter.LogWriter.LogFormat(C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.LogWriter\LogWriter.cs:30) - 错误信息:减法异常!
+错误的代码位置:   在 ConsoleApplicationForTest.Class1.SUBSTRACT() 位置 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\Class1.cs:行号 20
+   在 System.Runtime.Remoting.Messaging.Message.Dispatch(Object target, Boolean fExecuteInContext)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)

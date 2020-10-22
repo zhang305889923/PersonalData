@@ -1,0 +1,15 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\obj\Debug\ExinScada.Aop.ExceptionIntercepter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.ExceptionIntercepter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.ExceptionIntercepter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.Advice.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.Aspect.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.LogWriter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.Advice.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.Aspect.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.LogWriter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\ExinScada.Aop.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\obj\Debug\ExinScada.Aop.ExceptionIntercepter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ExinScada.ExceptionIntercepter\bin\Debug\log4net.dll

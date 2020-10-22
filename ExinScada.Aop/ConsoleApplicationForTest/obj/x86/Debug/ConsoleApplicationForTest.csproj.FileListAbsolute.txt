@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.ExceptionIntercepter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.Aspect.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.Advice.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.LogWriter.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.ExceptionIntercepter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.Aspect.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.Aop.Advice.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\bin\Debug\ExinScada.LogWriter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\obj\x86\Debug\ConsoleApplicationForTest.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ExinScada.Aop\ConsoleApplicationForTest\obj\x86\Debug\ConsoleApplicationForTest.pdb
